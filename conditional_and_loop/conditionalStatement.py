@@ -2,7 +2,7 @@
 age = int(input("Enter age: "))
 if age>=18: 
     print("Can pass")
-
+if age<18: print("Fail")
 # if ... else
 if age>19 and age<24:
     print("Greating!")
