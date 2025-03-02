@@ -47,7 +47,7 @@ class Eta(ABC):
     @property
     @abstractmethod
     def greet(self):
-        pass
+        pass # Abstract property, must be implemented by subclasses
 class Iota(Eta):
     @property
     def greet(self):
